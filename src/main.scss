@@ -2,6 +2,7 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
+$success: #6812f3;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -12,3 +13,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.navbar-logo{
+    width: 8%;
+    cursor: pointer;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #ddd;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(104, 18, 243, 0.25);
+}
+
