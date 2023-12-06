@@ -11983,6 +11983,17 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+.landing-page-container {
+  font-family: Ageo Personal Use;
+  max-width: 75vw;
+  height: 400vh;
+}
+
+.navbar-conatiner {
+  max-width: 75vw;
+  z-index: 1000;
+}
+
 .navbar-logo {
   width: clamp(60px, 8%, 100px);
   cursor: pointer;
@@ -12009,7 +12020,6 @@ textarea.form-control-lg {
 }
 
 .header-headline {
-  font-family: Ageo Personal Use;
   font-weight: 900;
   letter-spacing: 1.5px;
   font-size: clamp(1.3rem, 4vw, 3.5rem);
@@ -12024,6 +12034,7 @@ textarea.form-control-lg {
 }
 
 .headline-section-container {
+  margin-top: 200px;
   font-family: Ageo Personal Use;
 }
 
@@ -12038,6 +12049,7 @@ textarea.form-control-lg {
 
 .card {
   flex-basis: 31%;
+  min-height: 25vw;
   font-family: Ageo Personal Use;
   border-radius: 28px;
   box-shadow: 0px 2.76726px 2.21381px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 5.32008px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.04), 0px 22.33631px 17.86905px 0px rgba(0, 0, 0, 0.04), 0px 41.77761px 33.42209px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
@@ -12054,6 +12066,9 @@ textarea.form-control-lg {
 @media only screen and (max-width: 1320px) {
   .nav-link {
     padding: 0 !important;
+  }
+  .headline-section-container {
+    margin-top: 50px;
   }
 }
 @media only screen and (max-width: 1220px) {
