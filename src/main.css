@@ -12063,6 +12063,26 @@ textarea.form-control-lg {
   font-size: clamp(1.3rem, 1.9vw, 2rem);
 }
 
+.section-services-bottom-headline {
+  color: darkblue;
+  font-size: clamp(1.3rem, 1.9vw, 2rem);
+}
+
+.section-services-bottom-description {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+}
+
+.section-services-bottom-play-button {
+  width: 15%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.section-services-bottom-play-button:hover {
+  width: 16%;
+  transition: 0.3s;
+}
+
 @media only screen and (max-width: 1320px) {
   .nav-link {
     padding: 0 !important;
@@ -12086,7 +12106,7 @@ textarea.form-control-lg {
     flex-basis: 100%;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .header-headline-container {
     flex-basis: 100%;
     row-gap: 15px !important;
