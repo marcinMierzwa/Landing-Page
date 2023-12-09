@@ -9,10 +9,10 @@
     <script src="bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div class="container-fluid d-flex flex-column w-75 mt-2 landing-page gap-5">
+    <div class="container-fluid d-flex flex-column gap-5 p-0 landing-page-container">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid position-fixed bg-white top-0 p-3 navbar-conatiner">
             <img
               src="./images/logo/logo1.png"
               alt="logo"
@@ -77,8 +77,9 @@
           </div>
         </div>
       </nav>
+
     <!-- header -->
-    <header class="d-flex flex-wrap justify-content-between align-items-center px-2 w-100">
+    <header class="d-flex flex-wrap justify-content-between align-items-center px-2 w-100 mt-5 ">
 
       <div class="d-flex flex-column justify-content-center align-items-center gap-5 header-headline-container">
         <h1 class="m-0 header-headline">We will help you get your startup business going</h1>
@@ -87,7 +88,7 @@
         >Get Started</button>
       </div>
 
-      <div class="header-container-image d-flex justify-content-center align-items-center">     
+      <div class="header-container-image d-flex justify-content-end align-items-center">     
         <img src="images/header/header image.jpg" alt="man at work image" class="img-fluid header-image ">
       </div> 
 
@@ -98,13 +99,13 @@
 
   <div class="container-fluid w-100 d-flex flex-column justify-content-center align-items-center gap-2 headline-section-container">
     <p class="text-uppercase text-secondary small-headline-section m-0">services</p>
-    <h2 class="display-4 fw-bold main-headline-section ">Our Services</h2>
+    <h2 class="display-4 fw-bold main-headline-section ">Our Goal</h2>
   </div>
 
-  <!-- service top -->
+  <!-- section-services-top -->
 
-    <section class="container-fluid d-flex flex-wrap justify-content-between align-items-center section-services-top gap-3">
-      <div class="card border-0 gap-3 p-4">
+    <section class="container-fluid d-flex flex-wrap justify-content-between align-items-center gap-4 section-services-top">
+      <div class="card border-0 gap-4 p-4 justify-content-center">
         <div class="d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-camera-reels-fill mt-2" viewBox="0 0 16 16">
           <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
           <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
@@ -116,7 +117,7 @@
       <button class="btn btn-success mx-auto section-services-top-btn" type="button"
         >Learn More</button>
       </div>
-      <div class="card border-0 gap-3 p-4">
+      <div class="card border-0 gap-4 p-4 justify-content-center">
         <div class="d-flex justify-content-center align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-highlights mt-2" viewBox="0 0 16 16">
             <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-8 5v1H4.5a.502.502 0 0 0-.093.009A7.029 7.029 0 0 1 3.1 13zm0-1H2.255a6.998 6.998 0 0 1-.581-1H8zm-6.71-2a6.96 6.96 0 0 1-.22-1H8v1zM1 8c0-.34.024-.673.07-1H8v1zm.29-2c.103-.345.231-.68.384-1H8v1zm.965-2c.25-.36.534-.694.846-1H8v1zm2.137-2A6.967 6.967 0 0 1 8 1v1z"/>
@@ -126,7 +127,7 @@
       <button class="btn btn-success mx-auto section-services-top-btn" type="button"
         >Learn More</button>
       </div>
-      <div class="card border-0 gap-3 p-4">
+      <div class="card border-0 gap-4 p-4 justify-content-center">
         <div class="d-flex justify-content-center align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-microsoft mt-2" viewBox="0 0 16 16">
             <path d="M7.462 0H0v7.19h7.462zM16 0H8.538v7.19H16zM7.462 8.211H0V16h7.462zm8.538 0H8.538V16H16z"/>
@@ -136,16 +137,47 @@
       <button class="btn btn-success mx-auto section-services-top-btn" type="button"
         >Learn More</button>
       </div>
-      
-
-
-      
     </section>
 
+   <!-- headline section -->
+
+
+   <div class="container-fluid w-100 d-flex flex-column justify-content-center align-items-center gap-2 headline-section-container">
+    <p class="text-uppercase text-secondary small-headline-section m-0">services</p>
+    <h2 class="display-4 fw-bold main-headline-section ">Our Services</h2>
+  </div>
+
+  <!-- section-services-bottom -->
+
+  <section class="d-flex flex-lg-row flex-column align-items-center gap-3 mt-lg-2 w-100 section-services-bottom-container-main ">
+
+
+    <div class="d-flex flex-column align-items-lg-start gap-xxl-5 gap-xl-4 w-50 section-services-bottom-container-left">
+      <h5 class="text-center text-lg-start section-services-bottom-headline">We Offer Many Blocks and Components</h5>
+      <p class="text-center text-lg-start section-services-bottom-description">Startup Framework contains components and complex blocks which can easily be integrated into almost any design</p>
+      <button class="btn btn-outline-success fw-bold w-25 mx-auto mx-lg-0 rounded-4 section-services-bottom-btn">Explore</button>
+    </div>
+
+    <div class="mt-4 section-services-bottom-container-right w-50 ">
+
+      <div class="position-relative p-0">
+
+        <img src="images/section-services/play-icon.png" alt="button play icon" class="position-absolute top-50 start-50 section-services-bottom-play-button">
+        <img src="images/section-services/techno.png" alt="technology image
+        " class="img-fluid rounded-5 shadow section-services-bottom-yellow-image">
+        </div>
+
+    </div>
+    
+
+  
+    
+
+
+  </section>
 
 
 
-    <section></section>
     <section></section>
     <section></section>
     <footer></footer>
