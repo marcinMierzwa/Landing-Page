@@ -96,13 +96,12 @@ $success: #6812f3;
   font-size: clamp(1.3rem, 1.9vw, 2rem);
 }
 // --section services-bottom--
-
-.section-services-bottom-headline {
+.section-services-bottom-headline{
   color: darkblue;
   font-size: clamp(1.3rem, 1.9vw, 2rem);
 }
 .section-services-bottom-description{
-  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
 }
 .section-services-bottom-play-button{
   width: 15% ;
@@ -113,6 +112,7 @@ $success: #6812f3;
   width: 16% ;
   transition: 0.3s;
 }
+
 
 
 
@@ -141,6 +141,15 @@ $success: #6812f3;
   }
   .card {
     flex-basis: 100%;
+  }
+  .section-services-bottom-container-left{
+    width: 75% !important;
+  }
+  .section-services-bottom-container-right{
+    width: 75% !important;
+  }
+  .section-services-bottom-btn{
+    width: 50% !important;
   }
 }
 @media only screen and (max-width: 768px) {

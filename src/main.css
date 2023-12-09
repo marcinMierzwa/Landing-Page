@@ -12069,7 +12069,7 @@ textarea.form-control-lg {
 }
 
 .section-services-bottom-description {
-  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
 }
 
 .section-services-bottom-play-button {
@@ -12104,6 +12104,15 @@ textarea.form-control-lg {
   }
   .card {
     flex-basis: 100%;
+  }
+  .section-services-bottom-container-left {
+    width: 75% !important;
+  }
+  .section-services-bottom-container-right {
+    width: 75% !important;
+  }
+  .section-services-bottom-btn {
+    width: 50% !important;
   }
 }
 @media only screen and (max-width: 768px) {
