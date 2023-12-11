@@ -17,7 +17,7 @@ $success: #6812f3;
 .landing-page-container {
   font-family: Ageo Personal Use;
   max-width: 75vw;
-  height: 400vh;
+  height: 1000vh;
 }
 
 // --navbar--
@@ -113,7 +113,18 @@ $success: #6812f3;
   transition: 0.3s;
 }
 
-
+// --section services-opinions--
+.section-opinions-single-container{
+  min-height: 13vw !important;
+  flex-basis: 45% !important;
+}
+.section-opinions-name{
+  letter-spacing: 3px;
+}
+.section-opinions-img-container{
+ width: 80px !important;
+ max-height: 80px !important;
+}
 
 
 
@@ -176,5 +187,8 @@ $success: #6812f3;
 @media only screen and (max-width: 580px) {
   .header-container-image {
     flex-basis: 100%;
+  }
+  .section-opinions-single-container{
+    min-height: 80vw !important;
   }
 }
