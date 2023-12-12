@@ -12097,6 +12097,44 @@ textarea.form-control-lg {
   max-height: 80px !important;
 }
 
+.team-card {
+  font-family: "DM Sans", sans-serif;
+  color: #0b1b35;
+  border-radius: 10px;
+  border: 2px solid #ebeaed;
+}
+
+.team-face {
+  -webkit-clip-path: circle(40%);
+          clip-path: circle(40%);
+}
+
+.team-profession {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.flex-basis-33 {
+  flex-basis: 32%;
+}
+
+.media-btn {
+  width: 100%;
+  border-top: 2px solid #ebeaed !important;
+  border-left: 2px solid #ebeaed !important;
+  transition: 0.4s;
+}
+
+.media-btn:first-child {
+  border-left: none !important;
+}
+
+.media-btn:hover {
+  background-color: #f4e9fe !important;
+  border-top-color: #6812f3 !important;
+}
+
 @media only screen and (max-width: 1320px) {
   .nav-link {
     padding: 0 !important;

@@ -96,38 +96,68 @@ $success: #6812f3;
   font-size: clamp(1.3rem, 1.9vw, 2rem);
 }
 // --section services-bottom--
-.section-services-bottom-headline{
+.section-services-bottom-headline {
   color: darkblue;
   font-size: clamp(1.3rem, 1.9vw, 2rem);
 }
-.section-services-bottom-description{
+.section-services-bottom-description {
   font-size: clamp(1rem, 1.6vw, 1.3rem);
 }
-.section-services-bottom-play-button{
-  width: 15% ;
+.section-services-bottom-play-button {
+  width: 15%;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-.section-services-bottom-play-button:hover{
-  width: 16% ;
+.section-services-bottom-play-button:hover {
+  width: 16%;
   transition: 0.3s;
 }
 
 // --section services-opinions--
-.section-opinions-single-container{
+.section-opinions-single-container {
   min-height: 13vw !important;
   flex-basis: 45% !important;
 }
-.section-opinions-name{
+.section-opinions-name {
   letter-spacing: 3px;
 }
-.section-opinions-img-container{
- width: 80px !important;
- max-height: 80px !important;
+.section-opinions-img-container {
+  width: 80px !important;
+  max-height: 80px !important;
 }
 
+// --section-team--
 
-
+.team-card {
+  font-family: "DM Sans", sans-serif;
+  color: #0b1b35;
+  border-radius: 10px;
+  border: 2px solid #ebeaed;
+}
+.team-face {
+  clip-path: circle(40%);
+}
+.team-profession {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.flex-basis-33 {
+  flex-basis: 32%;
+}
+.media-btn {
+  width: 100%;
+  border-top: 2px solid #ebeaed !important ;
+  border-left: 2px solid #ebeaed !important ;
+  transition: 0.4s;
+}
+.media-btn:first-child {
+  border-left: none !important ;
+}
+.media-btn:hover {
+  background-color: #f4e9fe !important;
+  border-top-color: #6812f3 !important;
+}
 
 // --media--
 
@@ -153,13 +183,13 @@ $success: #6812f3;
   .card {
     flex-basis: 100%;
   }
-  .section-services-bottom-container-left{
+  .section-services-bottom-container-left {
     width: 75% !important;
   }
-  .section-services-bottom-container-right{
+  .section-services-bottom-container-right {
     width: 75% !important;
   }
-  .section-services-bottom-btn{
+  .section-services-bottom-btn {
     width: 50% !important;
   }
 }
@@ -188,7 +218,7 @@ $success: #6812f3;
   .header-container-image {
     flex-basis: 100%;
   }
-  .section-opinions-single-container{
+  .section-opinions-single-container {
     min-height: 80vw !important;
   }
 }
