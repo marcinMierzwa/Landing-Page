@@ -129,7 +129,6 @@ $success: #6812f3;
 // --section-team--
 
 .team-card {
-  font-family: "DM Sans", sans-serif;
   color: #0b1b35;
   border-radius: 10px;
   border: 2px solid #ebeaed;
@@ -155,8 +154,16 @@ $success: #6812f3;
   border-left: none !important ;
 }
 .media-btn:hover {
-  background-color: #f4e9fe !important;
+  background-color: #fbf9fd !important;
   border-top-color: #6812f3 !important;
+
+}
+.media-icon{
+  transition: 0.2s;
+}
+
+.media-btn:hover .media-icon {
+  transform: scale(1.2);
 }
 
 // --media--
