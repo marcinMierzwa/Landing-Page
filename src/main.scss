@@ -17,7 +17,6 @@ $success: #6812f3;
 .landing-page-container {
   font-family: Ageo Personal Use;
   max-width: 75vw;
-  height: 1000vh;
 }
 
 // --navbar--
@@ -155,8 +154,28 @@ $success: #6812f3;
   border-left: none !important ;
 }
 .media-btn:hover {
-  background-color: #f4e9fe !important;
+  background-color: #f8f4fc !important;
   border-top-color: #6812f3 !important;
+}
+.media-btn:hover .media-icon {
+  transform: scale(1.2);
+}
+
+// --footer--
+
+.footer-logo {
+  width: 50px !important;
+  cursor: pointer;
+}
+.footer-copy-rights {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.footer-link {
+  color: #1d0132;
+}
+.footer-link:hover {
+  color: #3045e3;
 }
 
 // --media--
