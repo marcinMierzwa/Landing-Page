@@ -14,9 +14,9 @@ Hello, this my project of Landing-page. I made this project with
 
 ![Alt text](readme-img/desktop-opinions.jpg)
 
-![Alt text](readme-img/desktop-navbar.jpg)
+![Alt text](readme-img/mobile-navbar.jpg)
 
-![Alt text](readme-img/desktop-team.jpg)
+![Alt text](readme-img/mobile-team.jpg)
 
 # The challenge
 
