@@ -1,14 +1,11 @@
 # Landing-Page
 
 Hello, this my project of Landing-page. I made this project with
-
-- bootstrap classes,
-- sass,
-- css features like
-  -flex,
-  -clamp,
-  -transform or,
-  -clip-path.
+bootstrap ,sass andcss features like
+  * flex,
+  * clamp,
+  * transform or,
+  * clip-path.
 
 ![Alt text](readme-img/desktop-home.jpg)
 
@@ -18,7 +15,7 @@ Hello, this my project of Landing-page. I made this project with
 
 # The challenge
 
-- Create responsive Landing-Page good looking on every display
+- Create Landing-Page responsive and good-looking on every display
 
 # Link
 
