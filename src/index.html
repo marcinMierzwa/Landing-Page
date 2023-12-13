@@ -11,8 +11,8 @@
   <body>
     <div class="container-fluid d-flex flex-column gap-5 p-0 landing-page-container">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid position-fixed bg-white top-0 p-3 navbar-conatiner">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid position-fixed bg-white top-0 p-3 navbar-conatiner" id="rootElement">
             <img
               src="./images/logo/logo1.png"
               alt="logo"
@@ -30,22 +30,22 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-menu-links">
               <li class="nav-item px-4">
-                <a class="nav-link active " aria-current="page" href="#">Home</a>
+                <a class="nav-link active lh-lg" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item px-4">
-                <a class="nav-link " href="#">About</a>
+                <a class="nav-link lh-lg" href="#">About</a>
               </li>
             </li>
             <li class="nav-item px-4">
-              <a class="nav-link " href="#">Services</a>
+              <a class="nav-link lh-lg" href="#">Services</a>
             </li>
           </li>
           <li class="nav-item px-4">
-            <a class="nav-link " href="#">Contact</a>
+            <a class="nav-link lh-lg" href="#">Contact</a>
           </li>
               <li class="nav-item dropdown px-4">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle lh-lg"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -66,45 +66,35 @@
             </ul>
             <form class="d-flex" role="search">
               <input
-                class="form-control me-2"
+                class="form-control me-2 lh-lg"
                 type="search"
                 placeholder="Search"
                 aria-label="Search" />
-              <button class="btn btn-outline-success" type="submit"
+              <button class="btn btn-outline-success lh-lg" type="submit"
                 >Search</button
               >
             </form>
           </div>
         </div>
       </nav>
-
     <!-- header -->
-    <header class="d-flex flex-wrap justify-content-between align-items-center px-2 w-100 mt-5 ">
-
+    <header class="d-flex flex-wrap justify-content-between align-items-center px-2 w-100 mt-5 scroller">
       <div class="d-flex flex-column justify-content-center align-items-center gap-5 header-headline-container">
         <h1 class="m-0 header-headline">We will help you get your startup business going</h1>
         <p class="m-0 header-description">Our goal is to be at the top of the creative services industry. We are a digital creator and we work with companies from all over the world, helping them to constantly develop.</p>
         <button class="btn btn-success me-auto header-button" type="button"
         >Get Started</button>
       </div>
-
       <div class="header-container-image d-flex justify-content-end align-items-center">     
         <img src="images/header/header image.jpg" alt="man at work image" class="img-fluid header-image ">
       </div> 
-
     </header>
-
-   <!-- headline section -->
-
-
   <div class="container-fluid w-100 d-flex flex-column justify-content-center align-items-center gap-2 headline-section-container">
     <p class="text-uppercase text-secondary small-headline-section m-0">services</p>
     <h2 class="display-4 fw-bold main-headline-section ">Our Goal</h2>
   </div>
-
   <!-- section-services-top -->
-
-    <section class="container-fluid d-flex flex-wrap justify-content-between align-items-center gap-4 section-services-top">
+    <section class="container-fluid d-flex flex-wrap justify-content-between align-items-center gap-4 section-services-top scroller">
       <div class="card border-0 gap-4 p-4 justify-content-center">
         <div class="d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-camera-reels-fill mt-2" viewBox="0 0 16 16">
           <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
@@ -138,52 +128,31 @@
         >Learn More</button>
       </div>
     </section>
-
-   <!-- headline section -->
-
-
    <div class="container-fluid w-100 d-flex flex-column justify-content-center align-items-center gap-2 headline-section-container">
     <p class="text-uppercase text-secondary small-headline-section m-0">services</p>
     <h2 class="display-4 fw-bold main-headline-section ">Our Services</h2>
   </div>
-
   <!-- section-services-bottom -->
-
-  <section class="d-flex flex-lg-row flex-column align-items-center gap-3 mt-lg-2 w-100 section-services-bottom-container-main ">
-
-
+  <section class="d-flex flex-lg-row flex-column align-items-center gap-3 mt-lg-2 w-100 section-services-bottom-container-main scroller">
     <div class="d-flex flex-column align-items-lg-start gap-xxl-5 gap-xl-4 w-50 section-services-bottom-container-left">
       <h5 class="text-center text-lg-start section-services-bottom-headline">We Offer Many Blocks and Components</h5>
       <p class="text-center text-lg-start section-services-bottom-description">Startup Framework contains components and complex blocks which can easily be integrated into almost any design</p>
       <button class="btn btn-outline-success fw-bold w-25 mx-auto mx-lg-0 rounded-4 section-services-bottom-btn">Explore</button>
     </div>
-
     <div class="mt-4 section-services-bottom-container-right w-50 ">
-
       <div class="position-relative p-0">
-
         <img src="images/section-services/play-icon.png" alt="button play icon" class="position-absolute top-50 start-50 section-services-bottom-play-button">
         <img src="images/section-services/techno.png" alt="technology image
         " class="img-fluid rounded-5 shadow section-services-bottom-yellow-image">
         </div>
-
     </div>
-    
   </section>
-
-   <!-- headline section -->
-
-
    <div class="container-fluid w-100 d-flex flex-column justify-content-center align-items-center gap-2 headline-section-container">
     <p class="text-uppercase text-secondary small-headline-section m-0">opinions</p>
-    <h2 class="display-4 fw-bold text-lg-center main-headline-section">What customers think about us</h2>
+    <h2 class="display-4 fw-bold text-center main-headline-section">What customers think about us</h2>
   </div>
-
   <!-- section-opinions -->
-
-
-    <section class="w-100 d-flex flex-column flex-xl-row flex-xl-wrap justify-content-evenly gap-3 mt-3 section-options-main-container ">
-
+    <section class="w-100 d-flex flex-column flex-xl-row flex-xl-wrap justify-content-evenly gap-3 mt-3 section-options-main-container scroller">
       <div class="d-flex justify-content-between align-items-lg-start p-2 section-opinions-single-container">
         <div class="d-flex justify-content-center mb-lg-auto">
         <div class="d-flex justify-content-center align-items-lg-start section-opinions-img-container">
@@ -195,7 +164,6 @@
           <p class="text-secondary fw-bold m-0 px-2 section-opinions-name">Michael Francis</p>
         </div>
       </div>
-
       <div class="d-flex justify-content-between align-items-lg-start p-2 section-opinions-single-container">
         <div class="d-flex justify-content-center align-items-start mb-lg-auto section-opinions-img-container">
         <div class="d-flex justify-content-center align-items-start section-opinions-img-container">
@@ -207,8 +175,6 @@
           <p class="text-secondary fw-bold m-0 px-2 section-opinions-name ">Katie Perry</p>
         </div>
       </div>
-
-
       <div class="d-flex justify-content-between align-items-lg-start p-2 section-opinions-single-container ">
         <div class="d-flex justify-content-center mb-lg-auto">
         <div class="d-flex justify-content-center align-items-start section-opinions-img-container">
@@ -220,8 +186,6 @@
           <p class="text-secondary fw-bold m-0 px-2 section-opinions-name ">Thomas Muller</p>
         </div>
       </div>
-
-
       <div class="d-flex justify-content-between align-items-lg-start p-2  section-opinions-single-container">
         <div class="d-flex justify-content-center align-items-start mb-lg-auto section-opinions-img-container">
         <div class="d-flex justify-content-center align-items-start section-opinions-img-container">
@@ -234,18 +198,12 @@
         </div>
       </div>
     </section>
-
-   <!-- headline section -->
-
    <div class="container-fluid w-100 d-flex flex-column justify-content-center align-items-center gap-2 mt-5 headline-section-container">
     <p class="text-uppercase text-secondary small-headline-section m-0">team</p>
     <h2 class="display-4 fw-bold text-lg-center main-headline-section">Meet our team</h2>
   </div>
-
  <!-- --------section team--------->
-
- <section class="section-team-container container-lg mb-2 ">
-
+ <section class="section-team-container container-lg mb-2 scroller">
    <div class="team-cards-container d-flex flex-wrap justify-content-start gap-3 flex-xl-row flex-column mt-4">
      <div class="team-card d-flex flex-column justify-content-between align-items-center flex-basis-33  ">
        <img src="images/section-team/team-face1.jpg" alt="girl's face" class="team-face img-fluid py-4 ">
@@ -279,11 +237,8 @@
      </div>
    </div>
    </section>
-
-<!-- --footer--    -->
-
+<!-- --footer---->
     <footer class="d-flex flex-column flex-lg-row justify-content-between align-items-center  w-100 mt-5 mb-4 p-2 border-bottom gap-2">
-
       <div class="d-flex flex-sm-row align-items-center gap-xl-5 flex-column gap-2">
         <img src="images/logo/logo1.png" alt="logo" class="footer-logo">
         <p class="m-0 text-center"><span class="footer-copy-rights">© 2023 </span>Marcin Mierzwa. All rights reserved</p>
