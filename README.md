@@ -19,7 +19,7 @@ bootstrap ,sass andcss features like
 
 # Link
 
-- Live Site URL: <a class="d-inline-block mx-2" href="https://marcinmierzwa.github.io/Landing-Page/">LandingPage
+- Live Site URL: <a class="d-inline-block mx-2" href="https://marcinmierzwa.github.io/Landing-Page/">Landing Page
   </a>
 
 # Built with
